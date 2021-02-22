@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Form</title>
+    <meta charset= "uff-8"/>
+    <meta name ="viewport" content="intial.scale=1.0, user.scralable=yes"/>
+</head>
+<body>
+    <form method = "get">
+        <label for = "Adress">Address:</label>
+        <input type="text" name="Address" placeholder="Enter your address" size="40" maxlength="700" id="Address">
+        <br></br>
+        <label for = "Postal code"> Posta Code:</label>
+        <input type="text" name="Postal code" placeholder="Enter your  Postal Code" size="40" maxlength="275" id="Postal Code">
+        <br></br>
+        <label for = "City"> City:</label>
+        <input type="text" name="City" placeholder="City" size="40" maxlength="275" id="City">
+
+      
+    </form>
+    <br></br>
+    <p>Choose a type of shipping method:</p>        
+<select name="Shipping" id="Shipping">
+        <option value="Standard">Standard Shipping</option>
+        
+        <option value="OneDay">One day Shipping</option>
+        
+        <option value="TwoDay">Two Day Shipping</option>
+</select>
+<br></br>
+<p>Select Payment type</p>
+<label><input type="radio" name="Payment" value="PayPal" checked/>PayPal</label>
+
+<label><input type="radio" name="Payment" value="DebitCard"/>Debit Card</label>
+
+<label><input type="radio" name="Payment" value="CreditCard"/>Credit Card</label>
+<br></br>
+<form action="/action_page.php">
+    <label for="comments">Comments</label>
+    <textarea id="Comments" name="Comments" rows="4" cols="40">
+    
+      </textarea>
+      <br><br>
+     
+    </form>
+
+    <label><input type = "checkbox" name = "Payment information" checked/> Save my Payment information</label>
+
+    <label><input type = "checkbox" name = "Sign up for email updates" checked/>Sign me up for Email updates</label>    
+    <br></br>
+    <input type="Submit" name ="Submit">
+</body>
+</html>
