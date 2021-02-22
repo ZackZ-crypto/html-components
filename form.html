@@ -7,19 +7,19 @@
 </head>
 <body>
     <form method = "get">
-        <label for = "Adress">Address:</label>
+        <b><label for = "Adress">Address:</label></b>
         <input type="text" name="Address" placeholder="Enter your address" size="40" maxlength="700" id="Address">
         <br></br>
-        <label for = "Postal code"> Posta Code:</label>
+        <b><label for = "Postal code"> Posta Code:</label></b>
         <input type="text" name="Postal code" placeholder="Enter your  Postal Code" size="40" maxlength="275" id="Postal Code">
         <br></br>
-        <label for = "City"> City:</label>
+        <b><label for = "City"> City:</label></b>
         <input type="text" name="City" placeholder="City" size="40" maxlength="275" id="City">
 
       
     </form>
     <br></br>
-    <p>Choose a type of shipping method:</p>        
+    <b><u><p>Choose a type of shipping method:</p></u></b>        
 <select name="Shipping" id="Shipping">
         <option value="Standard">Standard Shipping</option>
         
@@ -28,7 +28,7 @@
         <option value="TwoDay">Two Day Shipping</option>
 </select>
 <br></br>
-<p>Select Payment type</p>
+<b><u><p>Select Payment type</p></u></b>
 <label><input type="radio" name="Payment" value="PayPal" checked/>PayPal</label>
 
 <label><input type="radio" name="Payment" value="DebitCard"/>Debit Card</label>
@@ -36,7 +36,7 @@
 <label><input type="radio" name="Payment" value="CreditCard"/>Credit Card</label>
 <br></br>
 <form action="/action_page.php">
-    <label for="comments">Comments</label>
+    <b><label for="comments">Comments</label></b>
     <textarea id="Comments" name="Comments" rows="4" cols="40">
     
       </textarea>
@@ -44,10 +44,11 @@
      
     </form>
 
-    <label><input type = "checkbox" name = "Payment information" checked/> Save my Payment information</label>
+    <b><i><label><input type = "checkbox" name = "Payment information" checked/> Save my Payment information</label></i></b>
 
-    <label><input type = "checkbox" name = "Sign up for email updates" checked/>Sign me up for Email updates</label>    
+    <b><i><label><input type = "checkbox" name = "Sign up for email updates" checked/>Sign me up for Email updates</label></i></b>    
     <br></br>
     <input type="Submit" name ="Submit">
+    <!-- Hi -->
 </body>
 </html>
